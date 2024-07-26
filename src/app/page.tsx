@@ -6,13 +6,24 @@ import WalletComponents from '@/components/WalletComponents';
 
 export default function Page() {
   return (
-      
+ 
+ 
+          
     <div className="flex flex-col w-96 md:w-[600px]">
       <section className="flex flex-col w-full mb-6 pb-6 border-b border-sky-800">
         <aside className="flex mb-6">
           <h2 className="text-2xl">An onchain app in 100 components or less</h2>
         </aside>
-       
+        <nav>
+        <ul>
+          <li><a href="#"><i className="fa fa-dashboard"></i> Dashboard</a></li>
+          <li><a href="/about"><i className="fa fa-address-card-o"></i> About Us</a></li>
+          <li><a rel="nofollow" href="#"><i className="fa fa-envelope-open"></i> Mailer</a></li>
+          <li><a href="#"><i className="fa fa-mixcloud"></i> Music partner</a></li>
+          <li><a href="#"><i className="fa fa-mixcloud"></i> Music Partner</a></li>
+          <li><a href="#"><i className="fa fa-feed"></i> Blog</a></li>
+          </ul>
+          </nav>  
       </section>
       <section className="flex flex-col w-full mb-6 pb-6 border-b border-sky-800">
         <aside className="flex mb-6">
