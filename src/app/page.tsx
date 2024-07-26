@@ -14,6 +14,7 @@ export default function Page() {
         <aside className="flex mb-6">
           <h2 className="text-2xl">An onchain app in 100 components or less</h2>
         </aside>
+        
         <nav>
         <ul>
           <li><a href="#"><i className="fa fa-dashboard"></i> Dashboard</a></li>

@@ -69,15 +69,7 @@ ul {
   margin:0;
  }
  
- header {
-  width:100%;
-  background: linear-gradient(45deg, #9b59b6, #7095c1, #e74c3c, #f1c40f, #48d1cc, #2ecc71);
-  -webkit-animation: color 2.5s ease-in  0s infinite alternate running;
-  -moz-animation: color 2.5s linear  0s infinite alternate running;
-  animation: color 2.5s linear  0s infinite alternate running;
-  z-index:1000;
-  position:fixed;
- }
+
  /* Animasi + Prefix untuk browser */
  @-webkit-keyframes color {
      0% { background: linear-gradient(45deg, #9b59b6, #7095c1, #e74c3c, #f1c40f, #48d1cc, #2ecc71); }
