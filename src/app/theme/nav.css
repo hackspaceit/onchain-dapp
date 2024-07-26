@@ -2,11 +2,7 @@
     padding:0;
     margin:0;
    }
-   body {
-    font-family:'Jockey One', Geneva, sans-serif;
-    font-size:15px;
-    background-color:#FFF
-   }
+
    header {
     width:100%;
     background: linear-gradient(45deg, #9b59b6, #7095c1, #e74c3c, #f1c40f, #48d1cc, #2ecc71);
