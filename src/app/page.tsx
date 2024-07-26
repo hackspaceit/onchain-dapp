@@ -3,7 +3,7 @@ import IdentityComponents from '@/components/IdentityComponents';
 import SwapComponents from '@/components/SwapComponents';
 import TokenComponents from '@/components/TokenComponents';
 import WalletComponents from '@/components/WalletComponents';
-
+import './navbar.css';
 export default function Page() {
   return (
  
