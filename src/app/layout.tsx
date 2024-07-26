@@ -3,7 +3,7 @@ import OnchainProviders from '../components/OnchainProviders';
 import type { Metadata } from 'next';
 
 import './global.css';
-
+import './global.css';
 import '@coinbase/onchainkit/styles.css';
 
 export const viewport = {
