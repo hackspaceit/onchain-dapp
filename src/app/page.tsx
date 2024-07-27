@@ -66,7 +66,7 @@ export default function Page() {
         <aside className="flex flex-col mb-6">
           <h2 className="text-xl  mb-6">Swap</h2>
          
-         
+        
         </aside>
         <SwapComponents />
       </section>
