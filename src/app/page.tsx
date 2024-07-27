@@ -5,23 +5,7 @@ import TokenComponents from '@/components/TokenComponents';
 import WalletComponents from '@/components/WalletComponents';
 import '@/components/Footer/Footer';
 
-<header>
-  <input type="checkbox" id="tag-menu"/>
-  <label className="fa fa-bars fa-2x menu-bar" ></label>
-  <a className="navbar-brand"></a>
-  <div className="jw-drawer">
-<nav>
-      <ul>
-        <li><a href="#"> Dashboard</a></li>
-        <li><a href="/about">About Us</a></li>
-        <li><a rel="nofollow" href="#"> Mailer</a></li>
-        <li><a href="#"> Music partner</a></li>
-        <li><a href="#"> Music Partner</a></li>
-        <li><a href="#">Blog</a></li>
-        </ul>
-        </nav>
-        </div>
-        </header>
+
 export default function Page() {
   return (
  
