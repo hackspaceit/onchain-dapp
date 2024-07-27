@@ -14,7 +14,7 @@ export default function Page() {
     <div className="flex flex-col w-96 md:w-[600px]">
       <section className="flex flex-col w-full mb-6 pb-6 border-b border-sky-800">
         <aside className="flex mb-6">
-          <h2 className="text-2xl">An onchain app in 100 components or less</h2>
+          <br></br>>
         </aside>
         
         <nav className="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
@@ -54,10 +54,7 @@ export default function Page() {
 
       </section>
       <section className="flex flex-col w-full mb-6 pb-6 border-b border-sky-800">
-        <aside className="flex mb-6">
-          <h2 className="text-xl">Your Wallet</h2>
-        </aside>
-        <IdentityComponents />
+        
       </section>
      
      
