@@ -3,7 +3,7 @@ import IdentityComponents from '@/components/IdentityComponents';
 import SwapComponents from '@/components/SwapComponents';
 import TokenComponents from '@/components/TokenComponents';
 import WalletComponents from '@/components/WalletComponents';
-import Footer from '@Footer/components/Footer/Footer';
+import Footer from '@/components/Footer/Footer';
 
 <header>
   <input type="checkbox" id="tag-menu"/>
