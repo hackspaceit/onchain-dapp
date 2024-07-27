@@ -70,10 +70,15 @@ export default function Page() {
         <SwapComponents />
       </section>
 
-   
+      <section className="flex flex-col w-full mb-6 pb-6 border-b border-sky-800">
+        <aside className="flex mb-6">
+          <h2 className="text-xl">Token</h2>
+        </aside>
+        <TokenComponents />
+      </section>
 
    </div>
-  
+
 
   );
 }
