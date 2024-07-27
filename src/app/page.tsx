@@ -3,6 +3,7 @@ import IdentityComponents from '@/components/IdentityComponents';
 import SwapComponents from '@/components/SwapComponents';
 import TokenComponents from '@/components/TokenComponents';
 import WalletComponents from '@/components/WalletComponents';
+import Navbar from '@/components/Navbar/Navbar';
 <header>
   <input type="checkbox" id="tag-menu"/>
   <label className="fa fa-bars fa-2x menu-bar" ></label>
