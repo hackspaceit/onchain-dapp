@@ -46,6 +46,16 @@ export default function SwapComponents() {
     chainId: 8453,
   };
 
+  const BrettToken: Token = {
+    name: 'BRETT',
+    address: '0x532f27101965dd16442E59d40670FaF5eBB142E4',
+    symbol: 'BRETT',
+    decimals: 18,
+    image:
+      'https://basescan.org/token/images/brettbased_32.png',
+    chainId: 8453,
+  };
+
   const USDCToken: Token = {
     name: 'USDC',
     address: '0x833589fcd6edb6e08f4c7c32d4f71b54bda02913',
@@ -66,7 +76,7 @@ export default function SwapComponents() {
     chainId: 8453,
   };
 
-  const swappableTokens = [DEGENToken, NounsToken, ETHToken, USDCToken, WETHToken];
+  const swappableTokens = [DEGENToken, NounsToken, BrettToken, ETHToken, USDCToken, WETHToken];
 
   const onSubmit = useCallback((swapTransaction: BuildSwapTransaction) => {
     console.log('swapTransaction:', swapTransaction);
