@@ -52,7 +52,7 @@ export default function SwapComponents() {
     symbol: 'USDC',
     decimals: 6,
     image:
-      'https://d3r81g40ycuhqg.cloudfront.net/wallet/wais/44/2b/442b80bd16af0c0d9b22e03a16753823fe826e5bfd457292b55fa0ba8c1ba213-ZWUzYjJmZGUtMDYxNy00NDcyLTg0NjQtMWI4OGEwYjBiODE2',
+      '/vibes/nouns.png',
     chainId: 8453,
   };
 
@@ -66,7 +66,7 @@ export default function SwapComponents() {
     chainId: 8453,
   };
 
-  const swappableTokens = [DEGENToken, ETHToken, USDCToken, WETHToken];
+  const swappableTokens = [DEGENToken, NounsToken, ETHToken, USDCToken, WETHToken];
 
   const onSubmit = useCallback((swapTransaction: BuildSwapTransaction) => {
     console.log('swapTransaction:', swapTransaction);
