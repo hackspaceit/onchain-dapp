@@ -68,7 +68,7 @@ export default function SwapComponents() {
     chainId: 8453,
   };
 
-  const swappableTokens = [DEGENToken, NounsToken, BrettToken, ETHToken, USDCToken, WETHToken];
+  const swappableTokens = [DEGENToken, NounsToken, BrettToken, ETHToken , WETHToken];
 
   const onSubmit = useCallback((swapTransaction: BuildSwapTransaction) => {
     console.log('swapTransaction:', swapTransaction);
@@ -85,12 +85,7 @@ export default function SwapComponents() {
             type="from"
           />
           <SwapToggleButton />
-          <SwapAmountInput
-            label="Buy"
-            swappableTokens={swappableTokens}
-            token={USDCToken}
-            type="to"
-          />
+          
           <SwapButton onSubmit={onSubmit} />
           <SwapMessage />
         </Swap>
